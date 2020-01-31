@@ -1,24 +1,24 @@
 {
-    "name": "k-searchselect",
-    "version": "1.0.0",
-    "description": "A react component for select and search",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/kimsean/k-searchselect"
-    },
-    "keywords": [
-      "React",
-      "Javascript",
-      "Node.js",
-      "Component"
-    ],
-    "author": "Kim Sean Pusod",
-    "license": "ISC",
-    "dependencies": {
-      "react": "^16.4.2"
-    }
+  "name": "k-searchselect",
+  "version": "1.0.0",
+  "description": "A react component for select and search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimsean/k-searchselect"
+  },
+  "keywords": [
+    "React",
+    "Javascript",
+    "Node.js",
+    "Component"
+  ],
+  "author": "Kim Sean Pusod",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.4.2"
   }
+}
