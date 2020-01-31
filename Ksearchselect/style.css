@@ -1,0 +1,72 @@
+.k-search-container {
+    display: inline-block;
+    width: 180px;
+    position: relative;
+}
+.k-search-container .k-search-selected {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px 10px 5px 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    justify-content: space-between;
+}
+.k-search-container .k-search-selected .k-search-d-icon {
+    width: 15px;
+    margin-left: 10px;
+}
+.k-search-container .k-search-selected .k-search-d-icon img {
+    width: 12px;
+}
+.k-search-container .k-search-selected .k-icon-rotate-up {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+.k-search-container .k-search-selected:hover {
+    cursor: pointer;
+    box-shadow: 5px;
+}
+.k-search-container .k-search-list-container {
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.75);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 0px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+}
+.k-search-container .k-search-list-container .k-search-input-container {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+}
+.k-search-container .k-search-list-container .k-search-input-container img {
+    width: 17px;
+    opacity: 0.2;
+}
+.k-search-container .k-search-list-container .k-search-input-container input {
+    margin-left: 5px;
+    border: none;
+}
+.k-search-container .k-search-list-container .k-search-input-container input:focus {
+    outline: none;
+}
+.k-search-container .k-search-list-container .k-search-list-group {
+    margin-top: 10px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+.k-search-container .k-search-list-container .k-search-list-group .k-search-list-item {
+    border-radius: 2px;
+    padding: 5px;
+    font-weight: 900;
+}
+.k-search-container .k-search-list-container .k-search-list-group .k-search-list-item:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+}
