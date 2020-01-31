@@ -1,1 +1,1 @@
-export * from './Ksearchselect'
+export * from './KinputSelect'

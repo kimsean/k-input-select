@@ -1,6 +1,6 @@
 /**
- * Open sourced React Native component of iconic-input library
- * @name k-searchselect
+ * Open sourced React component
+ * @name k-input-select
  * @type Component
  * @author Kim Sean Pusod
  * @description a search input with dropdown select

@@ -1,15 +1,14 @@
 {
-  "name": "k-searchselect",
+  "name": "k-input-select",
   "version": "1.0.0",
   "description": "A react component for select and search",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kimsean/k-searchselect"
+    "url": "git+https://github.com/kimsean/k-input-select.git"
   },
   "keywords": [
     "React",
@@ -21,5 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.4.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kimsean/k-input-select/issues"
+  },
+  "homepage": "https://github.com/kimsean/k-input-select#readme",
+  "devDependencies": {}
 }
